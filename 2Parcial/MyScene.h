@@ -8,6 +8,10 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface MyScene : SKScene
-
+@interface MyScene : SKScene <SKPhysicsContactDelegate>
+@property (nonatomic) SKSpriteNode * player;
+@property (nonatomic) SKSpriteNode * wallpaper;
+@property (nonatomic) NSTimeInterval lastSpawnTimeInterval;
+@property (nonatomic) NSTimeInterval lastUpdateTimeInterval;
+@property (nonatomic) int zombiesDestroyed;
 @end

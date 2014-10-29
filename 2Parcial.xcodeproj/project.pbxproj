@@ -17,13 +17,22 @@
 		97370F0F1A00044C009570F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97370F0D1A00044C009570F9 /* Main.storyboard */; };
 		97370F121A00044C009570F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97370F111A00044C009570F9 /* ViewController.m */; };
 		97370F151A00044C009570F9 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 97370F141A00044C009570F9 /* MyScene.m */; };
-		97370F171A00044C009570F9 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 97370F161A00044C009570F9 /* Spaceship.png */; };
 		97370F191A00044C009570F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97370F181A00044C009570F9 /* Images.xcassets */; };
 		97370F201A00044C009570F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97370F1F1A00044C009570F9 /* XCTest.framework */; };
 		97370F211A00044C009570F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97370EF91A00044C009570F9 /* Foundation.framework */; };
 		97370F221A00044C009570F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97370EFD1A00044C009570F9 /* UIKit.framework */; };
 		97370F2A1A00044C009570F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97370F281A00044C009570F9 /* InfoPlist.strings */; };
 		97370F2C1A00044C009570F9 /* _ParcialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97370F2B1A00044C009570F9 /* _ParcialTests.m */; };
+		97370F441A0009F2009570F9 /* street@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97370F431A0009F2009570F9 /* street@2x.png */; };
+		97370F4C1A001007009570F9 /* monster@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97370F4B1A001007009570F9 /* monster@2x.png */; };
+		97370F4E1A0010D8009570F9 /* monster1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97370F4D1A0010D7009570F9 /* monster1@2x.png */; };
+		97370F9E1A001E7C009570F9 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97370F9D1A001E7C009570F9 /* player@2x.png */; };
+		97370FA21A003007009570F9 /* projectile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97370FA11A003007009570F9 /* projectile@2x.png */; };
+		97370FA61A003D70009570F9 /* arwingPulseLaser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97370FA51A003D70009570F9 /* arwingPulseLaser.mp3 */; };
+		97370FA81A0043E2009570F9 /* zombieAttacked.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97370FA71A0043E2009570F9 /* zombieAttacked.mp3 */; };
+		97370FAB1A004677009570F9 /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 97370FAA1A004677009570F9 /* GameOver.m */; };
+		97370FAD1A00495B009570F9 /* torture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97370FAC1A00495B009570F9 /* torture.mp3 */; };
+		97370FAF1A004AC8009570F9 /* taDa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97370FAE1A004AC8009570F9 /* taDa.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +62,23 @@
 		97370F111A00044C009570F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97370F131A00044C009570F9 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		97370F141A00044C009570F9 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		97370F161A00044C009570F9 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		97370F181A00044C009570F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		97370F1E1A00044C009570F9 /* 2ParcialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2ParcialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97370F1F1A00044C009570F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		97370F271A00044C009570F9 /* 2ParcialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2ParcialTests-Info.plist"; sourceTree = "<group>"; };
 		97370F291A00044C009570F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97370F2B1A00044C009570F9 /* _ParcialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _ParcialTests.m; sourceTree = "<group>"; };
+		97370F431A0009F2009570F9 /* street@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "street@2x.png"; path = "../street@2x.png"; sourceTree = "<group>"; };
+		97370F4B1A001007009570F9 /* monster@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster@2x.png"; sourceTree = "<group>"; };
+		97370F4D1A0010D7009570F9 /* monster1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster1@2x.png"; sourceTree = "<group>"; };
+		97370F9D1A001E7C009570F9 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		97370FA11A003007009570F9 /* projectile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile@2x.png"; sourceTree = "<group>"; };
+		97370FA51A003D70009570F9 /* arwingPulseLaser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arwingPulseLaser.mp3; sourceTree = "<group>"; };
+		97370FA71A0043E2009570F9 /* zombieAttacked.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zombieAttacked.mp3; sourceTree = "<group>"; };
+		97370FA91A004677009570F9 /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOver.h; path = ../GameOver.h; sourceTree = "<group>"; };
+		97370FAA1A004677009570F9 /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOver.m; path = ../GameOver.m; sourceTree = "<group>"; };
+		97370FAC1A00495B009570F9 /* torture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torture.mp3; sourceTree = "<group>"; };
+		97370FAE1A004AC8009570F9 /* taDa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taDa.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +109,14 @@
 		97370EED1A00044C009570F9 = {
 			isa = PBXGroup;
 			children = (
+				97370FAE1A004AC8009570F9 /* taDa.mp3 */,
+				97370FAC1A00495B009570F9 /* torture.mp3 */,
+				97370FA71A0043E2009570F9 /* zombieAttacked.mp3 */,
+				97370FA51A003D70009570F9 /* arwingPulseLaser.mp3 */,
+				97370FA11A003007009570F9 /* projectile@2x.png */,
+				97370F9D1A001E7C009570F9 /* player@2x.png */,
+				97370F4D1A0010D7009570F9 /* monster1@2x.png */,
+				97370F4B1A001007009570F9 /* monster@2x.png */,
 				97370F011A00044C009570F9 /* 2Parcial */,
 				97370F251A00044C009570F9 /* 2ParcialTests */,
 				97370EF81A00044C009570F9 /* Frameworks */,
@@ -121,6 +148,9 @@
 		97370F011A00044C009570F9 /* 2Parcial */ = {
 			isa = PBXGroup;
 			children = (
+				97370FA91A004677009570F9 /* GameOver.h */,
+				97370FAA1A004677009570F9 /* GameOver.m */,
+				97370F431A0009F2009570F9 /* street@2x.png */,
 				97370F0A1A00044C009570F9 /* AppDelegate.h */,
 				97370F0B1A00044C009570F9 /* AppDelegate.m */,
 				97370F0D1A00044C009570F9 /* Main.storyboard */,
@@ -128,7 +158,6 @@
 				97370F111A00044C009570F9 /* ViewController.m */,
 				97370F131A00044C009570F9 /* MyScene.h */,
 				97370F141A00044C009570F9 /* MyScene.m */,
-				97370F161A00044C009570F9 /* Spaceship.png */,
 				97370F181A00044C009570F9 /* Images.xcassets */,
 				97370F021A00044C009570F9 /* Supporting Files */,
 			);
@@ -240,10 +269,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97370FA61A003D70009570F9 /* arwingPulseLaser.mp3 in Resources */,
+				97370FAF1A004AC8009570F9 /* taDa.mp3 in Resources */,
+				97370FA21A003007009570F9 /* projectile@2x.png in Resources */,
+				97370FA81A0043E2009570F9 /* zombieAttacked.mp3 in Resources */,
 				97370F061A00044C009570F9 /* InfoPlist.strings in Resources */,
+				97370F4E1A0010D8009570F9 /* monster1@2x.png in Resources */,
+				97370F441A0009F2009570F9 /* street@2x.png in Resources */,
+				97370FAD1A00495B009570F9 /* torture.mp3 in Resources */,
+				97370F4C1A001007009570F9 /* monster@2x.png in Resources */,
 				97370F191A00044C009570F9 /* Images.xcassets in Resources */,
-				97370F171A00044C009570F9 /* Spaceship.png in Resources */,
 				97370F0F1A00044C009570F9 /* Main.storyboard in Resources */,
+				97370F9E1A001E7C009570F9 /* player@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97370F151A00044C009570F9 /* MyScene.m in Sources */,
+				97370FAB1A004677009570F9 /* GameOver.m in Sources */,
 				97370F121A00044C009570F9 /* ViewController.m in Sources */,
 				97370F0C1A00044C009570F9 /* AppDelegate.m in Sources */,
 				97370F081A00044C009570F9 /* main.m in Sources */,
@@ -393,8 +431,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2Parcial/2Parcial-Prefix.pch";
 				INFOPLIST_FILE = "2Parcial/2Parcial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,8 +447,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2Parcial/2Parcial-Prefix.pch";
 				INFOPLIST_FILE = "2Parcial/2Parcial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

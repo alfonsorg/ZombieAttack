@@ -10,6 +10,7 @@
 #import "MyScene.h"
 
 @implementation ViewController
+@import AVFoundation;
 
 - (void)viewDidLoad
 {
